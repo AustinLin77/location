@@ -1,0 +1,7 @@
+{
+  "keystore":"wuzhenApp",
+  "alias_name":"wuyi",
+  "password":"hzw1993222",
+  "bulid":"cordova build android --release",
+  "cmd":"jarsigner -verbose -sigalg SHA1withRSA -digestalg SHA1 -keystore wuzhenApp.keystore app-release-unsigned.apk wuyi"
+}

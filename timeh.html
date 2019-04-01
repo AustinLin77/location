@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+  *{
+    margin:0;
+    padding: 0;
+  }
+ body, .main{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+ .center{
+   border: solid 8px #555;
+   border-radius: 50%;
+ }
+  .content{
+    margin: 100px auto;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: #eee;
+    border: solid 2px #888;
+    display: flex;justify-content: center;
+    align-items: center;
+  }
+  .sZhen{
+    position: absolute;
+    width: 150px;
+    height: 2px;
+    background-color: #555;
+    transform: rotate(30deg);
+    transform-origin: left;
+    -webkit-animation: rotate 60s linear infinite;
+    -o-animation: rotate 60s linear infinite;
+    animation: rotate 60s linear infinite;
+  }
+  .mZhen{
+    position: absolute;
+
+    width: 120px;
+    height: 3px;
+    background-color: #555;
+    transform: rotate(30deg);
+
+    transform-origin: left;
+    -webkit-animation: rotate 3600s linear infinite;
+    -o-animation: rotate 3600s linear infinite;
+    animation: rotate 3600s linear infinite;
+  }
+  .hZhen{
+    position: absolute;
+    width: 100px;
+    height: 3px;
+    background-color: #555;
+    transform: rotate(30deg);
+    transform-origin: left;
+    -webkit-animation: rotate 216000s linear infinite;
+    -o-animation: rotate 216000s linear infinite;
+    animation: rotate 21600s linear infinite;
+  }
+
+  @keyframes rotate {
+    0%{
+      transform: rotate(0deg);
+    }
+    100%{
+      transform: rotate(360deg);
+    }
+  }
+</style>
+<body>
+  <div class="main">
+    <div class="content">
+      <div class="center">
+        <div class="sZhen"></div>
+        <div class="mZhen"></div>
+        <div class="hZhen"></div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>

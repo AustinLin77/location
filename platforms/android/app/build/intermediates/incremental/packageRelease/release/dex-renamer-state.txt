@@ -1,0 +1,4 @@
+#Mon Oct 08 11:49:25 CST 2018
+base.0=E\:\\nodeLearn\\cordova\\MyApp\\platforms\\android\\app\\build\\intermediates\\transforms\\dex\\release\\0
+renamed.0=classes.dex
+file.0=E\:\\nodeLearn\\cordova\\MyApp\\platforms\\android\\app\\build\\intermediates\\transforms\\dex\\release\\0\\classes.dex
